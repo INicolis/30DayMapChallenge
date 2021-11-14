@@ -1,5 +1,5 @@
 # The 30DayMapChallenge for November 13, 2021 is to use Natural Earth Data.
-# So I prepared a bathymetry map aroun the Calypso deep, the deepest point in the Mediterranean
+# So I prepared a bathymetry map around the Calypso deep, the deepest point in the Mediterranean
 # The script supposes you downloaded from https://www.naturalearthdata.com/
 # 1) the coastlines in ne_10m_coastline
 # 2) the bathymetry data in ne_10m_bathymetry_all
@@ -12,7 +12,7 @@ coast=readOGR("ne_10m_coastline/ne_10m_coastline.shp")
 coast_t=tidy(coast)
 carte=ggplot()+
   geom_path(data=coast_t,aes(x = long, y = lat, group = group),col="brown")+
-  coord_map(xlim = c(20,24), ylim = c(34,38))+   # We restraint the map in the South East of Greece
+  coord_map(xlim = c(20,24), ylim = c(34,38))+   # We restrain the map in the South East of Greece
   theme_minimal()
 
 profondeurs=dir(path="ne_10m_bathymetry_all/",pattern = "*shp")
