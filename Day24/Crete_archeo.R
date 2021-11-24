@@ -1,7 +1,7 @@
 # The script supposes you downloaded from https://www.naturalearthdata.com/
 # 1) the land data in ne_10m_land
 # 2) the small island data in ne_10m_minor_islands
-# and from
+# and from http://archive.data.gov.gr
 # 3) the archeological sites of Crete in Crete/arhaio_polygon
 # by I. Nicolis
 # Visit my https://github.com/INicolis for other contributions
