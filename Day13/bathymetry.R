@@ -3,6 +3,8 @@
 # The script supposes you downloaded from https://www.naturalearthdata.com/
 # 1) the coastlines in ne_10m_coastline
 # 2) the bathymetry data in ne_10m_bathymetry_all
+# by I. Nicolis
+# Visit my https://github.com/INicolis for other contributions
 
 library(ggplot2)
 library(rgdal)
