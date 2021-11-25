@@ -1,4 +1,7 @@
 # Altimetric plot of the bed of river Bièvres https://en.wikipedia.org/wiki/Bièvre_(river)
+# by I. Nicolis
+# Visit my https://github.com/INicolis for other contributions
+
 library(elevatr)
 library(sf)
 library(raster)
