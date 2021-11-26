@@ -1,7 +1,7 @@
 # Covid vaccination in Greece by department.
 # Data from gov.gr, 25 November 2021
 # Not necessarily representative because recorded by
-# vaccination department and by residence.
+# vaccination department and not by residence.
 # See it just as an exercice of combining python and R i a script
 library(ggplot2)
 library(sf)
